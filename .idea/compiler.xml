@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vecter-manage-service-web" />
+        <module name="vecter-manage-service-business" />
+        <module name="vecter-manage-service-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vecter-mannage-service-test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="vecter-manage-service" options="" />
+      <module name="vecter-manage-service-business" options="-parameters" />
+      <module name="vecter-manage-service-common" options="-parameters" />
+      <module name="vecter-manage-service-web" options="-parameters" />
+      <module name="vecter-mannage-service-test" options="-parameters" />
+    </option>
+  </component>
+</project>
